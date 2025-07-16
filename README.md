@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# 🌐 Portafolio Personal - Brayan Gómez
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+¡Hola! 👋 Soy **Brayan Gómez**, Científico de Datos y estudiante de Ingeniería en Sistemas apasionado por los datos, la tecnología y el aprendizaje continuo.
 
-## Available Scripts
+Este proyecto es mi portafolio personal, desarrollado con **React** y **CSS personalizado**, donde presento mis habilidades, proyectos, experiencia y medios de contacto.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Tecnologías utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- ⚛️ React.js
+- 🎨 CSS clásico (sin frameworks)
+- 💻 HTML5
+- 🧠 Diseño responsivo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🎯 Secciones del portafolio
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Inicio**: Bienvenida y presentación.
+- **Sobre mí**: Quién soy y qué me inspira.
+- **Proyectos**: Mis trabajos destacados.
+- **Habilidades**: Herramientas y tecnologías que manejo.
+- **Contacto**: Formulario y enlaces útiles.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📷 Vista previa
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+> Puedes ver una muestra del portafolio aquí:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Captura del Portafolio](./public/screenshot.png)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ⚙️ Cómo ejecutar localmente
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+# Clona el repositorio
+git clone https://github.com/tuusuario/mi-portafolio.git
+cd mi-portafolio
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Instala las dependencias
+npm install
 
-## Learn More
+# Inicia la aplicación
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🌐 Enlace al portafolio
 
-### Code Splitting
+[👉 Ver en línea (GitHub Pages o Vercel)](https://tuusuario.github.io/mi-portafolio)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 📬 Contacto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Email: brayan6264@gmail.com
+- LinkedIn: [linkedin.com/in/tuusuario](www.linkedin.com/in/brayan-gomez-backend)
+- GitHub: [github.com/tuusuario](http://github.com/brayan6264)
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> Hecho con ❤️, dedicación y café ☕ por **Brayan Gómez**

@@ -1,0 +1,53 @@
+.header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  padding: 0.8rem 2rem;
+  z-index: 100;
+  background: linear-gradient(180deg, rgba(10,10,25,0.7), rgba(10,10,25,0.2)); /* azul oscuro translúcido */
+  backdrop-filter: blur(12px);       /* efecto de difuminado elegante */
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05); /* línea suave opcional */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #f3f3f3;
+  letter-spacing: 0.5px;
+}
+
+.nav .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav .nav-links a {
+  color: #ddd;
+  text-decoration: none;
+  font-weight: 400;
+  transition: color 0.3s ease;
+}
+
+.nav .nav-links a:hover {
+  color: #fef08a;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav .nav-links {
+    gap: 1rem;
+    font-size: 0.95rem;
+  }
+}
