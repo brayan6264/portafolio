@@ -59,8 +59,8 @@ npm start
 ## 📬 Contacto
 
 - Email: brayan6264@gmail.com
-- LinkedIn: [linkedin.com/in/tuusuario](www.linkedin.com/in/brayan-gomez-backend)
-- GitHub: [github.com/tuusuario](http://github.com/brayan6264)
+- LinkedIn: [linkedin.com/in/brayan-gomez-backend](www.linkedin.com/in/brayan-gomez-backend)
+- GitHub: [github.com/brayan6264](http://github.com/brayan6264)
 
 ---
 
