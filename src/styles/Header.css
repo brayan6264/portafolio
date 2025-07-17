@@ -4,10 +4,10 @@
   width: 100%;
   padding: 0.8rem 2rem;
   z-index: 100;
-  background: linear-gradient(180deg, rgba(10,10,25,0.7), rgba(10,10,25,0.2)); /* azul oscuro translúcido */
-  backdrop-filter: blur(12px);       /* efecto de difuminado elegante */
+  background: rgba(10, 10, 25, 0.2); /* fondo translúcido */
+  backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05); /* línea suave opcional */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .container {

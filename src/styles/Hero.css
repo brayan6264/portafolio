@@ -1,17 +1,16 @@
 .hero {
-  height: 100vh; /* ocupa el 100% de la altura visible */
+  height: 100vh;
   min-height: 100vh;
   width: 100%;
-  padding: 6rem 2rem;
+  padding: calc(6rem + 80px) 2rem 6rem; /* espacio arriba para compensar el header */
   box-sizing: border-box;
   display: flex;
   align-items: center;
-  justify-content: center; /* opcional si quieres centrar horizontal también */
+  justify-content: center;
   position: relative;
   overflow: hidden;
-  background-color: #0a0f1d; /* o tu fondo personalizado */
+  background-color: #0a0f1d;
 }
-
 /* Parche 1 (morado) */
 .hero::before {
   content: '';
