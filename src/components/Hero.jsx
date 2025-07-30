@@ -11,7 +11,7 @@ function Hero() {
             <h2>Científico de Datos & Estudiante de Ingeniería en Sistemas</h2>
             <p>Apasionado por los datos, la tecnología y el aprendizaje continuo.</p>
             <div className="hero-buttons">
-            <a href="#portfolio" className="btn-primary">Ver proyectos</a>
+            <a href="/projects" className="btn-primary">Ver proyectos</a>
             <a href="#contact" className="btn-secondary">Contáctame</a>
             </div>
         </div>

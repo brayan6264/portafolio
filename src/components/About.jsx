@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import '../styles/About.css';
 import perfil from '../assets/perfil-about.jpg'; 
 import { FaChevronUp, FaChevronDown } from 'react-icons/fa';
-import sections from '../data/Sections'; // Asegúrate de que la ruta sea correcta
+import sections from '../data/Sections';
 
 function About() {
   const [currentSection, setCurrentSection] = useState(0);
@@ -24,12 +24,12 @@ function About() {
     } else if (e.deltaY < 0 && currentSection > 0) {
       changeSection(-1);
     }
-  }, [currentSection, isTransitioning]); // 👈 dependencias correctas
+  }, [currentSection, isTransitioning]); 
 
   useEffect(() => {
     window.addEventListener('wheel', handleScroll);
     return () => window.removeEventListener('wheel', handleScroll);
-  }, [handleScroll]); // ✅ sin warnings
+  }, [handleScroll]);
 
   return (
     <section id="about" className="about-section">

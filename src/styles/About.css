@@ -1,5 +1,6 @@
 .about-section {
-  height: 100vh;
+  min-height: 86.5vh;
+  height: auto;
   width: 100%;
   background: linear-gradient(145deg, #0a0a1f, #111130);
   display: flex;
@@ -9,7 +10,6 @@
   position: relative;
 }
 
-/* 🔹 Parches animados */
 .about-section::before,
 .about-section::after {
   content: "";
@@ -46,8 +46,6 @@
     transform: translate(-30px, 20px);
   }
 }
-
-/* 🔹 Contenido */
 .about-container {
   display: flex;
   align-items: center;
@@ -102,7 +100,6 @@
   line-height: 1.6;
 }
 
-/* 🔹 Flechas */
 .arrow {
   position: absolute;
   left: 50%;

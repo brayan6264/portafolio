@@ -11,7 +11,7 @@ function Header() {
             <ul className="nav-links">
                 <li><Link to="/">Inicio</Link></li>
                 <li><Link to="/about">Sobre mí</Link></li>
-                <li><a href="#portfolio">Proyectos</a></li>
+                <li><Link to="/projects">Proyectos</Link></li>
                 <li><a href="#experience">Experiencia</a></li>
                 <li><a href="#contact">Contacto</a></li>
             </ul>

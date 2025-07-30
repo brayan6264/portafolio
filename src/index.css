@@ -3,7 +3,45 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  background-color: #0a0f1d;
+  background: linear-gradient(145deg, #0a0a1f, #111130);
   color: #f3f3f3;
-  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+}
+
+body::before,
+body::after {
+  content: "";
+  position: fixed;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  filter: blur(100px);
+  opacity: 0.6;
+  animation: floatColors 12s ease-in-out infinite alternate;
+  z-index: -1; 
+}
+
+body::before {
+  background: #8e44ad;
+  top: -100px;
+  left: -100px;
+}
+
+body::after {
+  background: #3498db;
+  bottom: -100px;
+  right: -100px;
+}
+
+@keyframes floatColors {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(40px, 60px);
+  }
+  100% {
+    transform: translate(-30px, 20px);
+  }
 }
