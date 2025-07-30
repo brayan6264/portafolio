@@ -12,7 +12,7 @@ function Hero() {
             <p>Apasionado por los datos, la tecnología y el aprendizaje continuo.</p>
             <div className="hero-buttons">
             <a href="/projects" className="btn-primary">Ver proyectos</a>
-            <a href="#contact" className="btn-secondary">Contáctame</a>
+            <a href="/contact" className="btn-secondary">Contáctame</a>
             </div>
         </div>
         <div className="hero-image">
