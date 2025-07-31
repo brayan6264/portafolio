@@ -44,13 +44,14 @@ return (
               </Link>
             </li>
             <li>
-                <Link to="/contact" onClick={closeMenu}>Contacto</Link>
+              <Link to="/contact" onClick={closeMenu}>
+                Contacto
+              </Link>
             </li>
           </ul>
         </nav>
       </div>
     </header>
-  );
-}
+  );}
 
 export default Header;

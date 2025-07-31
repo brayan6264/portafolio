@@ -71,7 +71,6 @@ function Contact() {
             <textarea name="message" placeholder="Escribe tu mensaje..." rows="5" required></textarea>
             <button type="submit">Enviar mensaje</button>
           </form>
-
           {status === "success" && <p className="success-message">¡Tu mensaje fue enviado!</p>}
           {status === "error" && <p className="error-message">Hubo un problema, intenta de nuevo.</p>}
         </div>

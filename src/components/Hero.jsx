@@ -1,6 +1,5 @@
-import React from 'react';
 import '../styles/Hero.css';
-import profileImage from '../assets/profile.png'; // Asegúrate de tener esta imagen
+import profileImage from '../assets/profile.png'; 
 
 function Hero() {
     return (
