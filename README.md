@@ -52,7 +52,7 @@ npm start
 
 ## 🌐 Enlace al portafolio
 
-[👉 Ver en línea (GitHub Pages o Vercel)](https://tuusuario.github.io/mi-portafolio)
+[👉 Ver en línea ](https://portafolio-sigma-ecru.vercel.app/)
 
 ---
 
