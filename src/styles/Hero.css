@@ -9,6 +9,7 @@
   position: relative;
   overflow: hidden;
   background: linear-gradient(145deg, #0a0a1f, #111130);
+  padding: 0 20px;
 }
 
 .hero::before,
@@ -23,6 +24,7 @@
   animation: floatColors 12s ease-in-out infinite alternate;
   z-index: 0;
 }
+
 .hero::before {
   background: #8e44ad;
   top: -100px;
@@ -56,6 +58,7 @@
   max-width: 1200px;
   margin: 0 auto;
   flex-wrap: wrap;
+  gap: 2rem;
 }
 
 .hero-text {
@@ -85,6 +88,7 @@
 
 .hero-buttons {
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
 }
 
@@ -134,20 +138,69 @@
   box-shadow: 0 0 40px rgba(130, 87, 229, 0.4);
 }
 
+@media (max-width: 1024px) {
+  .hero-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-text h2 {
+    font-size: 1.3rem;
+  }
+
+  .hero-image img {
+    width: 220px;
+    height: 220px;
+  }
+}
+
 @media (max-width: 768px) {
-.hero-content {
+  .hero-content {
     flex-direction: column-reverse;
     text-align: center;
-}
+  }
 
-.hero-text h1 {
+  .hero-text h1 {
     font-size: 2.2rem;
+  }
+
+  .hero-text h2 {
+    font-size: 1.2rem;
+  }
 }
 
-.hero-text h2 {
-    font-size: 1.2rem;
-    }
+@media (max-width: 480px) {
+  .hero {
+    padding: 20px 10px;
+  }
+
+  .hero-text h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-text h2 {
+    font-size: 1rem;
+  }
+
+  .hero-text p {
+    font-size: 0.95rem;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .hero-buttons a {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-image img {
+    width: 180px;
+    height: 180px;
+  }
 }
+
 .logo-circle {
   width: 40px;
   height: 40px;
